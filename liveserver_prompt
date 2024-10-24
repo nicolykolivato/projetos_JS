@@ -1,0 +1,14 @@
+// prompt() no liveserver
+
+let firstName = prompt('Digite o seu primeiro nome: ')
+let lastName = prompt('Digite o seu último nome: ')
+let age = Number(prompt('Digite a sua idade: '))
+const varAge = 2
+
+console.log(firstName)
+console.log(lastName)
+console.log(age + varAge)
+
+// prompt() sempre retorna str;
+// parseInt() converte tudo que estiver dentro em número;
+// let = as variáveis podem ser alteradas, const = não podem ser alteradas;
