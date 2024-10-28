@@ -8,3 +8,5 @@ friends[4] = 'Anna' // replace
 friends[1] = 'Maverick' // add
 friends[5] = 1
 console.log(friends)
+
+console.log(friends[2])
